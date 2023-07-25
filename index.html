@@ -3,7 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1e266b727a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Lato", sans-serif;
+      }
+
+      img {
+        vertical-align: middle;
+        border: 0;
+      }
+    </style>
+    <title>Fruit Brust</title>
   </head>
-  <body></body>
+  <body>
+    <!-- header part start -->
+    <header class="lg:container mx-auto">
+      <!-- navigation part start -->
+      <nav class="mt-12">
+        <div class="lg:bg-[#F85559] lg:rounded-full p-11 navbar bg-base-100">
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu p-0 menu-horizontal text-base text-white">
+              <li><a>Home</a></li>
+              <li><a>About Us</a></li>
+              <li><a>Shop</a></li>
+              <li><a>All Fruits</a></li>
+            </ul>
+          </div>
+          <div class="flex-1 flex lg:justify-center">
+            <img class="w-12" src="images/logo.png" alt="" />
+            <a class="btn btn-ghost normal-case text-4xl lg:text-white"
+              >Fruit Burst</a
+            >
+          </div>
+          <div class="hidden lg:flex">
+            <div class="form-control relative">
+              <input
+                type="text"
+                placeholder="Search here "
+                class="input rounded-full w-24 md:w-96"
+              />
+              <i
+                class="absolute top-4 right-4 text-[#121212] fa-solid fa-magnifying-glass"
+              ></i>
+            </div>
+          </div>
+          <div class="flex lg:hidden">
+            <button class="btn btn-square btn-ghost">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                class="inline-block w-8 h-8 stroke-current"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <!-- banner part start -->
+      <div class="banner"></div>
+    </header>
+  </body>
 </html>
