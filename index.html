@@ -133,7 +133,7 @@
           </div>
 
           <div id="slide2" class="carousel-item relative w-full">
-            <img src="/images/banner2.png" class="w-full" />
+            <img src="images/banner2.png" class="w-full" />
             <div
               class="bg-gradient-to-b from-[rgb(18,18,18)] to-[rgba(18, 18, 18, 0.00)] absolute top-0 right-0 left-0 bottom-0 w-full h-full"
             >
@@ -175,7 +175,7 @@
           </div>
 
           <div id="slide3" class="carousel-item relative w-full">
-            <img src="/images/banner3.png" class="w-full" />
+            <img src="images/banner3.png" class="w-full" />
             <div
               class="bg-gradient-to-b from-[rgb(18,18,18)] to-[rgba(18, 18, 18, 0.00)] absolute top-0 right-0 left-0 bottom-0 w-full h-full"
             >
@@ -216,7 +216,7 @@
           </div>
 
           <div id="slide4" class="carousel-item relative w-full">
-            <img src="/images/banner2.png" class="w-full" />
+            <img src="images/banner4.png" class="w-full" />
             <div
               class="bg-gradient-to-b from-[rgb(18,18,18)] to-[rgba(18, 18, 18, 0.00)] absolute top-0 right-0 left-0 bottom-0 w-full h-full"
             >
@@ -374,7 +374,69 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-                <p class="text-[#F85559] text-lg font-bold">Details</p>
+
+                <!-- Open the modal using ID.showModal() method -->
+                <div>
+                  <button
+                    class="text-[#F85559] text-lg font-bold"
+                    onclick="my_modal_1.showModal()"
+                  >
+                    Details
+                  </button>
+                </div>
+                <dialog id="my_modal_1" class="modal">
+                  <form method="dialog" class="modal-box py-12 px-20">
+                    <div class="flex items-center justify-center pb-12">
+                      <img class="w-64 h-64" src="images/fruit6.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg">Apples</h3>
+                    <p class="py-4">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                        checked
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                    </div>
+                    <div class="modal-action flex justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Buy now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
@@ -419,7 +481,67 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-                <p class="text-[#F85559] text-lg font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-lg font-bold"
+                    onclick="my_modal_2.showModal()"
+                  >
+                    Details
+                  </button>
+                </div>
+                <dialog id="my_modal_2" class="modal">
+                  <form method="dialog" class="modal-box py-12 px-20">
+                    <div class="flex items-center justify-center pb-12">
+                      <img class="w-64 h-64" src="images/fruit7.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg">Orange</h3>
+                    <p class="py-4">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                        checked
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                    </div>
+                    <div class="modal-action flex justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Buy now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
@@ -464,7 +586,67 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-                <p class="text-[#F85559] text-lg font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-lg font-bold"
+                    onclick="my_modal_3.showModal()"
+                  >
+                    Details
+                  </button>
+                </div>
+                <dialog id="my_modal_3" class="modal">
+                  <form method="dialog" class="modal-box py-12 px-20">
+                    <div class="flex items-center justify-center pb-12">
+                      <img class="w-64 h-64" src="images/fruit8.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg">Red Dragon</h3>
+                    <p class="py-4">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                        checked
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                    </div>
+                    <div class="modal-action flex justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Buy now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
@@ -480,7 +662,7 @@
                 >
                   05.55$ - 8.15$
                 </h2>
-                <p class="py-6 text-gray-400 font-medium">Apples</p>
+                <p class="py-6 text-gray-400 font-medium">Bananas</p>
                 <div class="rating pb-8">
                   <input
                     type="radio"
@@ -509,7 +691,67 @@
                     class="mask mask-star-2 bg-orange-400"
                   />
                 </div>
-                <p class="text-[#F85559] text-lg font-bold">Details</p>
+                <div>
+                  <button
+                    class="text-[#F85559] text-lg font-bold"
+                    onclick="my_modal_4.showModal()"
+                  >
+                    Details
+                  </button>
+                </div>
+                <dialog id="my_modal_4" class="modal">
+                  <form method="dialog" class="modal-box py-12 px-20">
+                    <div class="flex items-center justify-center pb-12">
+                      <img class="w-64 h-64" src="images/fruit9.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg">Bananas</h3>
+                    <p class="py-4">
+                      Professional employees are there for you to pick the most
+                      amazing and fresh fruits.
+                    </p>
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                        checked
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-[#F85559]"
+                      />
+                    </div>
+                    <div class="modal-action flex justify-center">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="btn bg-[#F85559] hover:text-[#F85559] hover:border-2 hover:border-[#F85559] hover:bg-white text-white text-xs lg:text-base min-h-0 h-8 lg:h-14 px-2 lg:px-8"
+                      >
+                        Buy now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
               </div>
             </div>
           </div>
